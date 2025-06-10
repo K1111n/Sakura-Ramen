@@ -1,0 +1,398 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color:#000000;
+    font-family: Raleway,sans-serif;
+    margin: 0;
+}
+header{
+    background-image: url("img/hero_bg.jpg");
+    height: 100vh;
+    margin:0;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*Headline*/
+
+
+.headline{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;  
+    color: white;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    padding: 135px;
+}
+h1{
+    font-size: 96px;
+    font-weight: bold;
+}
+.headline p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* Nav-Sektion*/
+
+
+.icon{
+    width: 64px;
+    height: 64px;
+}
+.icon-tel{
+    height: 24px;
+    width: auto;
+    padding-right: 5px;
+    margin-top: -10px;
+}
+nav{
+    color:white;
+    height: 112px;
+    font-size: 24px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: Raleway,sans-serif;
+    padding: 30px;
+}
+.tel-btn{
+    background-color: #9F0908;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.tel-btn:hover{
+    background-color: #b90808;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding-right: 20px;
+}
+.about:hover, .location:hover, .menu:hover{
+    color: yellow;
+}
+
+/*How to order-Sektion*/
+
+
+h2{
+    color: #9F0908;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 120px;
+    padding-bottom: 64px;
+    font-family: Raleway,sans-serif;
+    font-weight: bold;
+    margin:0;
+}
+.how{
+    display: flex;
+    justify-content:space-evenly;
+}
+.how-to{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-items: center;
+  text-align:center;
+}
+.how-to p{
+    font-size: 56px;
+    padding-bottom: 120px;
+    font-family: Economica, sans-serif;
+    font-weight: bold;
+    margin:0;
+}
+.icon-how{
+    width: 128px;
+    height: auto;
+    padding-bottom: 16px;
+}
+
+/*Menü-Sektion*/
+
+.our-menu{
+    background-image: url("img/section_our_menu_bg.jpg");
+    background-size: cover;
+}
+.tonkotsuramen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 56px;
+}
+.spicymiso{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 56px;
+}
+.shioramen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.icon-tonkotsu{
+    width: 352px;
+    height:352px;
+    padding-right: 80px;
+}
+.icon-spicymiso{
+    width: 352px;
+    height:352px;
+    padding-left: 80px;
+}
+.icon-shioramen{
+    width: 352px;
+    height:352px;
+    padding-right: 80px;
+}
+
+table {
+  height:0;
+}
+th{
+    color:#000000;
+    font-size: 56px;
+    font-family: Economica,sans-serif;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+tr{
+    font-size: 32px;
+    color: #675E54;
+    font-family: Raleway,sans-serif;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+/* Find us at-Sektion*/
+
+h3{
+    color: #9F0908;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 120px;
+    padding-bottom: 8px;
+    font-family: Raleway,sans-serif;
+    font-weight: bold;
+    margin:0;
+}
+.icon-marker{
+    object-fit: contain;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: auto;
+}
+.address{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 64px;
+}
+.address p{
+    font-size: 24px;
+    margin:0;
+}
+#iframe{
+    width: 100%;
+    height:800px;
+}
+
+/*Footer*/
+
+
+.icon-brand{
+    height: 44px;
+    width: auto;
+}
+.icon-socials{
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
+footer{
+    background-color: #0A141E;
+    display: flex;
+    justify-content: space-around;
+    height:144px;
+    }
+
+.socials{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: flex-end;
+    flex: 1;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    margin-left:auto;
+    flex:1;
+    padding-left: 20px;
+}
+
+/*Responsive*/
+
+
+@media(max-width:850px) {
+    .hide-nav-mobile{
+        display: none;
+    }
+    .centered{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        padding-left: 15px;
+    }
+    nav{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 72px;
+    }
+    .headline p{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 64px;
+        padding-top:96px;
+        padding-bottom: 48px;
+    }
+    .how{
+        margin:0;
+        justify-content: space-around;
+    }
+    .icon-how{
+        width: 112px;
+        height: auto;
+        padding-bottom: 8px;
+    }
+    .how-to p{
+        font-size: 32px;
+        padding-bottom: 96px;
+    }
+    th{
+        font-size: 56px;
+    }
+    tr{
+        font-size: 32px;
+    }
+    .tonkotsuramen, .spicymiso{
+        padding-bottom: 32px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .shioramen{
+        padding-bottom: 96px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .icon-tonkotsu, .icon-shioramen{
+        padding-right: 24px;
+    }
+    .icon-spicymiso{
+        padding-left: 24px;
+    }
+    h3{
+        padding-top: 96px;
+        font-size: 64px;
+    }
+    .address{
+        padding-bottom: 48px;
+        font-size: 20px;
+    }
+}
+
+@media(min-width:700px) {
+    .hide-bigscreen{
+        display: none;
+    }
+}
+
+@media(max-width:700px) {
+    .hide-mobile{
+        display: none;
+    }
+    nav{
+        height: 64px;
+        font-size: 16px;
+    }
+    .icon-mobile{
+        width: 40px;
+        height: 40px;
+        padding-left: 20px;
+    }
+    h1{
+        font-size: 44px;
+    }
+    .headline p{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 64px;
+        padding-top:72px;
+        padding-bottom: 40px;
+    }
+    .how{
+        display: flex;
+        flex-direction: column;
+    }
+    .how-to p{
+        padding-bottom: 32px;
+    }
+    .pb-40{
+        padding-bottom:40px;
+    }
+    .icon-tonkotsu, .icon-spicymiso, .icon-shioramen{
+    padding: 24px;
+    }
+    .shioramen{
+        padding-bottom: 72px;
+    }
+    .column-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 56px;
+    }
+    h3{
+        padding-top: 72px;
+    }
+    .address{
+        padding-bottom: 40px;
+        font-size: 16px;
+    }
+    footer{
+        height: 86px;
+    }
+    .socialsicons-mobile{
+        width: 32px;
+        height: 32px;
+    }
+    .icon-socials{
+    width: 32px;
+    height: 32px;
+    }
+}
