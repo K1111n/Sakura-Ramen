@@ -293,10 +293,10 @@ footer{
         padding-bottom: 96px;
     }
     th{
-        font-size: 56px;
+        font-size: 32px;
     }
     tr{
-        font-size: 32px;
+        font-size: 24px;
     }
     .tonkotsuramen, .spicymiso{
         padding-bottom: 32px;
@@ -318,7 +318,7 @@ footer{
         padding-top: 96px;
         font-size: 64px;
     }
-    .address{
+    .address p{
         padding-bottom: 48px;
         font-size: 20px;
     }
@@ -350,9 +350,12 @@ footer{
         font-size: 16px;
     }
     h2{
-        font-size: 64px;
+        font-size: 40px;
         padding-top:72px;
         padding-bottom: 40px;
+    }
+    h3{
+        font-size: 40px;
     }
     .how{
         display: flex;
@@ -365,7 +368,8 @@ footer{
         padding-bottom:40px;
     }
     .icon-tonkotsu, .icon-spicymiso, .icon-shioramen{
-    padding: 24px;
+    padding: 0px;
+    padding-bottom: 20px;
     }
     .shioramen{
         padding-bottom: 72px;
@@ -380,7 +384,7 @@ footer{
     h3{
         padding-top: 72px;
     }
-    .address{
+    .address p{
         padding-bottom: 40px;
         font-size: 16px;
     }
@@ -395,4 +399,10 @@ footer{
     width: 32px;
     height: 32px;
     }
+}
+@media(max-width:374px) {
+    .icon-tonkotsu, .icon-spicymiso, .icon-shioramen{
+        height: 270px;
+        width:auto;
+        padding: auto;
 }
